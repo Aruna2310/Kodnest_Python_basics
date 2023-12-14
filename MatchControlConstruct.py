@@ -1,0 +1,11 @@
+a=int(input("Enter the first Number"))
+b=int(input("Enter the secont Number"))
+ch=int(input("Enter your choice"))
+match ch:
+    case 1:print("Addition ",a+b)
+    case 2:print("Substraction ",a-b)
+    case 3:print("Multiplication ",a*b)
+    case 4:print("Division ",a/b)
+    case 5:print("Remainder ",a%b)
+    case _:print("Invalid Input")
+print("Program Stopped")
